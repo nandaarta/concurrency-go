@@ -7,6 +7,8 @@ import (
 )
 
 func TestDo(t *testing.T) {
+	t.Parallel()
+
 	// given done and expected variables
 	expected := "process not completed !!"
 
